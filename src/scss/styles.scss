@@ -23,4 +23,27 @@
 // Import partials:
 
 // Custom styles:
+.nav-link:hover{
+  text-decoration: underline;
+}
 
+#main-heading {
+  font-family: 'Lugrasimo', cursive;
+  text-align: center;
+}
+
+#lower-heading {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: right;
+}
+
+#jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  font-family: 'Lugrasimo', cursive;
+}

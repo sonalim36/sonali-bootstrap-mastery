@@ -5,12 +5,70 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
-
+  <!--Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="article.html">Article</a>
+          <a class="nav-link" href="photos.html">Photos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+   <!-- Jumbotron -->
+  <div class="p-5 mb-4 bg-light rounded-3" id="jumbotron">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold" id="main-heading">Ship's Log</h1>
+      <p class="col-md-8 fs-4" id="lower-heading">A diary by Capt. Sonali Menon</p>
+    </div>
+  </div>
+   <!-- Cards -->
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken01.jpg" class="card-img-top" alt="Sconra">
+          <div class="card-body">
+            <h5 class="card-title">Sconra</h5>
+            <p class="card-text">Lanyard boatswain to go on account pirate tender Barbary Coast bilge water chantey ho. Lass gun pinnace topsail port careen flogging Yellow Jack hogshead schooner Sea Legs. Bilged on her anchor splice the main brace cutlass scourge of the seven seas  lookout hang the jib long boat chase smartly man-of-war tender line maroon trysail pink chandler.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken02.jpg" class="card-img-top" alt="Gryzel">
+          <div class="card-body">
+            <h5 class="card-title">Gryzel</h5>
+            <p class="card-text">Coxswain Spanish Main rope's end run a shot across the bow blow the man down interloper scourge of the seven seas aye crack. Tails strike colors reef sails splice the main brace wench gun Sail ho pink tender haul wind gaff. Hempen halter take a caulk grog blossom long clothes line bilge strike colors red ensign Jolly Roger reef Letter of Marque swing the lead.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken03.jpg" class="card-img-top" alt="Piranheel">
+          <div class="card-body">
+            <h5 class="card-title">Piranheel</h5>
+            <p class="card-text">Killick mizzenmast yardarm coxswain trysail crack Jennys tea cup ho jib holystone bilge. Fire ship hogshead sutler gun chase guns cable lookout barkadeer brigantine aye. Splice the main brace carouser Spanish Main Jack Tar doubloon Plate Fleet strike colors blow the man down cackle fruit execution dock.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+ <!-- Footer -->
+  <footer><p class="text-center bg-info p-1 m-3">By Sonali Menon</p></footer>
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
